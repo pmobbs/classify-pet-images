@@ -22,16 +22,13 @@ Below are 10 of them:
 Real:                     poodle   Classifier:        standard poodle, poodle
 
                     cat_02.jpg: 
-Real:                        cat   Classifier:          tabby, tabby cat, cat
+Real:                        cat   Classifier:                 tiger cat, cat
 
           Great_dane_05320.jpg: 
 Real:                 great dane   Classifier:                     Great Dane
 
            Dalmatian_04068.jpg: 
 Real:                  dalmatian   Classifier: dalmatian, coach dog, carriage dog
-
-                  gecko_02.jpg: 
-Real:                      gecko   Classifier:            banded gecko, gecko
 
                     cat_07.jpg: 
 Real:                        cat   Classifier:              Egyptian cat, cat
@@ -66,9 +63,6 @@ Real:                     poodle   Classifier:        standard poodle, poodle
            fox_squirrel_01.jpg: 
 Real:               fox squirrel   Classifier: fox squirrel, eastern fox squirrel, Sciurus niger
 
-      Boston_terrier_02285.jpg: 
-Real:             boston terrier   Classifier:    Boston bull, Boston terrier
-
                  skunk_029.jpg: 
 Real:                      skunk   Classifier:     skunk, polecat, wood pussy
 
@@ -77,9 +71,6 @@ Real:             boston terrier   Classifier:    Boston bull, Boston terrier
 
  Miniature_schnauzer_06884.jpg: 
 Real:        miniature schnauzer   Classifier:            miniature schnauzer
-
-              Beagle_01141.jpg: 
-Real:                     beagle   Classifier:                         beagle
 
              Basenji_00974.jpg: 
 Real:                    basenji   Classifier:                        basenji
@@ -95,9 +86,6 @@ Real:                    basenji   Classifier:                        basenji
 
       Boston_terrier_02259.jpg: 
 Real:             boston terrier   Classifier:    Boston bull, Boston terrier
-
-    Golden_retriever_05182.jpg: 
-Real:           golden retriever   Classifier:               golden retriever
 
     Golden_retriever_05223.jpg: 
 Real:           golden retriever   Classifier:               golden retriever
@@ -117,22 +105,31 @@ Real: german shorthaired pointer   Classifier:     German shorthaired pointer
       Cocker_spaniel_03750.jpg: 
 Real:             cocker spaniel   Classifier: cocker spaniel, English cocker spaniel, cocker
 
-    Golden_retriever_05257.jpg: 
-Real:           golden retriever   Classifier:               golden retriever
-
         Basset_hound_01034.jpg: 
 Real:               basset hound   Classifier:           basset, basset hound
 
  NOT A MATCH:
 
                     cat_01.jpg: 
-Real:                        cat   Classifier:                           lynx
+Real:                        cat   Classifier: African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus
+
+                  gecko_02.jpg: 
+Real:                      gecko   Classifier:               alligator lizard
 
               Beagle_01170.jpg: 
 Real:                     beagle   Classifier:  Walker hound, Walker foxhound
 
+      Boston_terrier_02285.jpg: 
+Real:             boston terrier   Classifier:                        basenji
+
+              Beagle_01141.jpg: 
+Real:                     beagle   Classifier:               English foxhound
+
                   gecko_80.jpg: 
-Real:                      gecko   Classifier: tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui
+Real:                      gecko   Classifier:           tree frog, tree-frog
+
+    Golden_retriever_05182.jpg: 
+Real:           golden retriever   Classifier:                Tibetan mastiff
 
        great_horned_owl_02.jpg: 
 Real:           great horned owl   Classifier: ruffed grouse, partridge, Bonasa umbellus
@@ -140,7 +137,10 @@ Real:           great horned owl   Classifier: ruffed grouse, partridge, Bonasa 
       Great_pyrenees_05367.jpg: 
 Real:             great pyrenees   Classifier:                         kuvasz
 
-# Total Images 40 # Matches: 35 # NOT Matches: 5
+    Golden_retriever_05257.jpg: 
+Real:           golden retriever   Classifier:           Afghan hound, Afghan
+
+# Total Images 40 # Matches: 30 # NOT Matches: 10
 
      MATCH:
 
@@ -149,7 +149,7 @@ Real:                     poodle   Classifier:        standard poodle, poodle
 PetLabelDog: 1  ClassLabelDog: 1
 
                     cat_02.jpg: 
-Real:                        cat   Classifier:          tabby, tabby cat, cat  
+Real:                        cat   Classifier:                 tiger cat, cat  
 PetLabelDog: 0  ClassLabelDog: 0
 
           Great_dane_05320.jpg: 
@@ -159,10 +159,6 @@ PetLabelDog: 1  ClassLabelDog: 1
            Dalmatian_04068.jpg: 
 Real:                  dalmatian   Classifier: dalmatian, coach dog, carriage dog  
 PetLabelDog: 1  ClassLabelDog: 1
-
-                  gecko_02.jpg: 
-Real:                      gecko   Classifier:            banded gecko, gecko  
-PetLabelDog: 0  ClassLabelDog: 0
 
                     cat_07.jpg: 
 Real:                        cat   Classifier:              Egyptian cat, cat  
@@ -208,10 +204,6 @@ PetLabelDog: 1  ClassLabelDog: 1
 Real:               fox squirrel   Classifier: fox squirrel, eastern fox squirrel, Sciurus niger  
 PetLabelDog: 0  ClassLabelDog: 0
 
-      Boston_terrier_02285.jpg: 
-Real:             boston terrier   Classifier:    Boston bull, Boston terrier  
-PetLabelDog: 1  ClassLabelDog: 1
-
                  skunk_029.jpg: 
 Real:                      skunk   Classifier:     skunk, polecat, wood pussy  
 PetLabelDog: 0  ClassLabelDog: 0
@@ -222,10 +214,6 @@ PetLabelDog: 1  ClassLabelDog: 1
 
  Miniature_schnauzer_06884.jpg: 
 Real:        miniature schnauzer   Classifier:            miniature schnauzer  
-PetLabelDog: 1  ClassLabelDog: 1
-
-              Beagle_01141.jpg: 
-Real:                     beagle   Classifier:                         beagle  
 PetLabelDog: 1  ClassLabelDog: 1
 
              Basenji_00974.jpg: 
@@ -246,10 +234,6 @@ PetLabelDog: 1  ClassLabelDog: 1
 
       Boston_terrier_02259.jpg: 
 Real:             boston terrier   Classifier:    Boston bull, Boston terrier  
-PetLabelDog: 1  ClassLabelDog: 1
-
-    Golden_retriever_05182.jpg: 
-Real:           golden retriever   Classifier:               golden retriever  
 PetLabelDog: 1  ClassLabelDog: 1
 
     Golden_retriever_05223.jpg: 
@@ -276,10 +260,6 @@ PetLabelDog: 1  ClassLabelDog: 1
 Real:             cocker spaniel   Classifier: cocker spaniel, English cocker spaniel, cocker  
 PetLabelDog: 1  ClassLabelDog: 1
 
-    Golden_retriever_05257.jpg: 
-Real:           golden retriever   Classifier:               golden retriever  
-PetLabelDog: 1  ClassLabelDog: 1
-
         Basset_hound_01034.jpg: 
 Real:               basset hound   Classifier:           basset, basset hound  
 PetLabelDog: 1  ClassLabelDog: 1
@@ -287,16 +267,32 @@ PetLabelDog: 1  ClassLabelDog: 1
  NOT A MATCH:
 
                     cat_01.jpg: 
-Real:                        cat   Classifier:                           lynx  
+Real:                        cat   Classifier: African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                  gecko_02.jpg: 
+Real:                      gecko   Classifier:               alligator lizard  
 PetLabelDog: 0  ClassLabelDog: 0
 
               Beagle_01170.jpg: 
 Real:                     beagle   Classifier:  Walker hound, Walker foxhound  
 PetLabelDog: 1  ClassLabelDog: 1
 
+      Boston_terrier_02285.jpg: 
+Real:             boston terrier   Classifier:                        basenji  
+PetLabelDog: 1  ClassLabelDog: 1
+
+              Beagle_01141.jpg: 
+Real:                     beagle   Classifier:               English foxhound  
+PetLabelDog: 1  ClassLabelDog: 1
+
                   gecko_80.jpg: 
-Real:                      gecko   Classifier: tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui  
+Real:                      gecko   Classifier:           tree frog, tree-frog  
 PetLabelDog: 0  ClassLabelDog: 0
+
+    Golden_retriever_05182.jpg: 
+Real:           golden retriever   Classifier:                Tibetan mastiff  
+PetLabelDog: 1  ClassLabelDog: 1
 
        great_horned_owl_02.jpg: 
 Real:           great horned owl   Classifier: ruffed grouse, partridge, Bonasa umbellus  
@@ -306,15 +302,19 @@ PetLabelDog: 0  ClassLabelDog: 0
 Real:             great pyrenees   Classifier:                         kuvasz  
 PetLabelDog: 1  ClassLabelDog: 1
 
-# Total Images 40 # Matches: 35 # NOT Matches: 5
+    Golden_retriever_05257.jpg: 
+Real:           golden retriever   Classifier:           Afghan hound, Afghan  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 40 # Matches: 30 # NOT Matches: 10
 
  ** Statistics from calculates_results_stats() function:
 N Images: 40  N Dog Images: 30  N NotDog Images: 10 
-Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  93.3
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  80.0
 
  ** Check Statistics - calculated from this function as a check:
 N Images: 40  N Dog Images: 30  N NotDog Images: 10 
-Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  93.3
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  80.0
 --------------------------------------------------
 Printing results for CNN model: alexnet
 --------------------------------------------------
@@ -322,9 +322,9 @@ Number of Images: 40
 Number of Dog Images: 30
 Number of "Not-a" Dog Images: 10
 % Correct Dogs: 100.0
-% Correct Breed:  93.3
+% Correct Breed:  80.0
 % Correct "Not-a" Dog: 100.0
-% Match (includes both dogs and not-a dog):  87.5
+% Match (includes both dogs and not-a dog):  75.0
 --------------------------------------------------
 Checking for misclassified dogs...
 No dogs were misclassified.
@@ -332,6 +332,10 @@ No dogs were misclassified.
 Checking for misclassified breed of dogs...
 These dogs have misclassified breeds:
 Image: beagle Classifier: Walker hound, Walker foxhound
+Image: boston terrier Classifier: basenji
+Image: beagle Classifier: English foxhound
+Image: golden retriever Classifier: Tibetan mastiff
 Image: great pyrenees Classifier: kuvasz
+Image: golden retriever Classifier: Afghan hound, Afghan
 
-** Total Elapsed Runtime: 0:0:18
+** Total Elapsed Runtime: 0:0:1

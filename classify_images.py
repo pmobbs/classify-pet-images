@@ -73,7 +73,8 @@ def classify_images(images_dir, results_dic, model):
       # Defines a model architecture to be used for classification
       # NOTE: this function only works for model architectures: 
       #      'vgg', 'alexnet', 'resnet'  
-      model = "vgg"
+      # This is passed in through an argument, following will override   
+      #model = "vgg"
 
       # Demonstrates classifier() functions usage
       # NOTE: image_classication is a text string - It contains mixed case(both lower

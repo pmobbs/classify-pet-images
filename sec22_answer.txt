@@ -4,7 +4,7 @@
 
 CNN Model Architecture	% Not-a-Dog	% Dogs	% Breeds  % Match
 			Correct		Correct	Correct	  Labels
-ResNet			100%		100%	93.3%	  87.5%
-AlexNet			100%		100%	93.3%	  87.5%
+ResNet			 90%		100%	90.0%	  82.5%
+AlexNet			100%		100%	80.0%	  75.0%
 VGG			100%		100%	93.3%	  87.5%
 
